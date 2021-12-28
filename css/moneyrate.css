@@ -1,0 +1,68 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#pointer {
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#circle {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.quarter {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quarter_1 {
+    background-color: #bbdbf3;
+    border-radius: 0 100% 0 0;
+}
+
+#quarter_2 {
+    background-color: #e3acae;
+    border-radius: 0 0 100% 0;
+}
+
+#quarter_3 {
+    background-color: #a3d6ce;
+    border-radius: 0 0 0 100%;
+}
+
+#quarter_4 {
+    background-color: #ffedab;
+    border-radius: 100% 0 0 0;
+}
+
+.rotate {
+    animation: rotate-anime 0.4s linear infinite;
+}
+
+@keyframes rotate-anime {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.stop {
+    animation-play-state: paused;
+}
