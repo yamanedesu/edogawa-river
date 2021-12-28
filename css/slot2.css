@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.theother {
+    margin-top: 10px;
+}
+
+.start{
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+}
+
+.sttext{
+    position: absolute; 
+    color: white;
+    background-color: rgb(128, 240, 229);
+    border-radius: 30%;
+    transform: rotate(20deg);
+    top: 20%;
+    left: 30%;
+}
+
+#title {
+    text-align: center;
+}
+
+#slots {
+    width: 520px;
+    margin: 0 auto;
+
+}
+
+#slots_a {
+    float: left;
+    width: 520px;
+    height: 105px;
+    border: 3px solid;
+    overflow: hidden;
+}
+
+#slots_a .wrapper {
+    width: 518px;
+}
+
+#slots_a .wrapper .slot {
+    width: 518px;
+    height: 100px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+/* #slots_a {
+    float: left;
+    width: 140px;
+    height: 35px;
+    border: 3px solid;
+    overflow: hidden;
+}
+
+#slots_a .wrapper {
+    width: 138px;
+}
+
+#slots_a .wrapper .slot {
+    width: 138px;
+    height: 30px;
+    text-align: center;
+    padding-top: 2px;
+} */

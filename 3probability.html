@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ギャンブルサイコロ</title>
+    <link rel="stylesheet" href="css/slot.css">
+</head>
+
+<body style="height: 500px;">
+    <div id="title">
+        <h2>江戸川3艇BOXサイコロ</h2>
+        <h3 style="margin-top: -20px;">〜確率調整版〜</h3>
+    </div>
+    <div id="slots">
+        <div id="slots_a">
+            <div class='wrapper'></div>
+        </div>
+    </div>
+
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <div style="width: 100px; margin: auto; position: relative;">
+        <input type="image" src="img/ターンマーク坊や.jpg" alt="スタート" class="start"
+            style="margin-top: 20px; margin-bottom: 10px;" onclick="javascript:slotStart();" />
+        <p class="sttext">スタート</p>
+    </div>
+
+    <div class="theother">
+        <li style="list-style: none; margin-bottom: 15px;">
+            <a href="3random.html">完全ランダム版はこちら</a>
+        </li>
+        <li style="list-style: none; margin-bottom: 15px;">
+            <a href="3hirate.html">高配当狙い版はこちら</a>
+        </li>
+        <li style="list-style: none; margin-bottom: 15px;">
+            <a href="moneyrate.html">賭け金サイコロはこちら</a>
+        </li>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/3probability.js"></script>
+</body>
+
+</html>
